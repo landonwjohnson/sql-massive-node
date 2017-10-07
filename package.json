@@ -4,7 +4,7 @@
   "description": "<img src=\"https://devmounta.in/img/logowhiteblue.png\" width=\"250\" align=\"right\">",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/landonwjohnson/sql-massive-node/issues"
   },
-  "homepage": "https://github.com/landonwjohnson/sql-massive-node#readme"
+  "homepage": "https://github.com/landonwjohnson/sql-massive-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "massive": "^4.3.0",
+    "nodemon": "^1.12.1"
+  }
 }
